@@ -391,17 +391,17 @@ header{
     color: white;
     text-align: center;
     position: relative;
+    padding: 0 20px;
 }
 .right-text h1{
     font-size: 2rem;
     padding: 15px 10px;
-    
 }
 .book-now{
     padding: 10px 30px;
     background-color: rgb(0, 112, 153);
     color: white;
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-top: 30px;
     position: absolute;
     left: 20px;
@@ -414,8 +414,93 @@ header{
 .book-now:hover{
     background-color: #04434e;
 }
-.s{
+.story{
     width: 100%;
     height: 30vh;
-    background-color: #333;
+    background-color:whitesmoke;
+}
+.story-content{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+.story h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #000000be;
+    font-family: sans-serif;
+}
+.story p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 1rem 0;
+    line-height: 1.1;
+    color: #000000c1;
+}
+.story-btn{
+    padding: 15px 40px;
+    background-color: rgb(0, 112, 153);
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.6s ease;
+    color: white;
+}
+.story-btn:hover{
+    background-color: #04434e;
+}
+
+.pannel-headline{
+    width: 100%;
+    height: 70vh;
+    padding: 20px 10px;
+}
+.pannel-headline-content{
+    width: 80%;
+    height: 90%;
+    background-image: linear-gradient(0deg, rgb(0, 1, 50) 0%, rgb(35, 46, 99) 50%, rgb(0, 1, 50) 100%);
+    padding: 60px 100px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left-pannel{
+    width: 70%;
+    height: 80%;
+    margin: auto;
+}
+.left-pannel img{
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+}
+.right-pannel{
+    width: 80%;
+    height: 100%;
+    margin-right: 10%;
+
+}.right-pannel h1{
+    color:rgba(255, 217, 0, 0.634);
+    padding: 20px 0;
+    font-size: 3rem;
+}
+.right-pannel p{
+    color: #fff;
+}
+.read{
+    padding: 20px 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: transparent;
+    transition: all 0.7s ease;
+}
+.read:hover{
+    background-color: #04434e;
+    border: none;
 }
