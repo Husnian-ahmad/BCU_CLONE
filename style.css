@@ -414,3 +414,8 @@ header{
 .book-now:hover{
     background-color: #04434e;
 }
+.s{
+    width: 100%;
+    height: 30vh;
+    background-color: #333;
+}
